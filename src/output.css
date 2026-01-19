@@ -306,6 +306,9 @@
   .mt-\[120px\] {
     margin-top: 120px;
   }
+  .mt-\[125px\] {
+    margin-top: 125px;
+  }
   .mb-\[10px\] {
     margin-bottom: 10px;
   }
@@ -321,6 +324,9 @@
   .mb-\[35px\] {
     margin-bottom: 35px;
   }
+  .mb-\[36px\] {
+    margin-bottom: 36px;
+  }
   .mb-\[58px\] {
     margin-bottom: 58px;
   }
@@ -330,11 +336,17 @@
   .mb-\[120px\] {
     margin-bottom: 120px;
   }
+  .mb-\[125px\] {
+    margin-bottom: 125px;
+  }
   .flex {
     display: flex;
   }
   .table {
     display: table;
+  }
+  .h-\[500px\] {
+    height: 500px;
   }
   .w-\[2\%\] {
     width: 2%;
@@ -362,6 +374,9 @@
   }
   .w-\[80\%\] {
     width: 80%;
+  }
+  .w-full {
+    width: 100%;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -442,8 +457,32 @@
   .bg-\[\#FFFFFF\] {
     background-color: #FFFFFF;
   }
+  .bg-\[url\] {
+    background-color: url;
+  }
   .bg-amber-300 {
     background-color: var(--color-amber-300);
+  }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
+  .bg-\[url\(\.\/\)\] {
+    background-image: url(./);
+  }
+  .bg-\[url\(\.\/images\)\] {
+    background-image: url(./images);
+  }
+  .bg-\[url\(\.\/images\/\)\] {
+    background-image: url(./images/);
+  }
+  .bg-\[url\(\.\/images\/computer\.\)\] {
+    background-image: url(./images/computer.);
+  }
+  .bg-\[url\(\.\/images\/computer\.png\)\] {
+    background-image: url(./images/computer.png);
+  }
+  .bg-cover {
+    background-size: cover;
   }
   .pt-\[12px\] {
     padding-top: 12px;
@@ -456,6 +495,9 @@
   }
   .pt-\[35px\] {
     padding-top: 35px;
+  }
+  .pt-\[125px\] {
+    padding-top: 125px;
   }
   .pr-\[12px\] {
     padding-right: 12px;
