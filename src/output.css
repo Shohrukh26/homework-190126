@@ -172,6 +172,9 @@
   .absolute {
     position: absolute;
   }
+  .relative {
+    position: relative;
+  }
   .top-\[140px\] {
     top: 140px;
   }
@@ -186,6 +189,9 @@
   }
   .top-\[580px\] {
     top: 580px;
+  }
+  .left-0 {
+    left: calc(var(--spacing) * 0);
   }
   .left-\[690px\] {
     left: 690px;
@@ -219,6 +225,12 @@
   }
   .z-6 {
     z-index: 6;
+  }
+  .order-1 {
+    order: 1;
+  }
+  .order-2 {
+    order: 2;
   }
   .m-auto {
     margin: auto;
@@ -259,6 +271,9 @@
   .mb-\[20px\] {
     margin-bottom: 20px;
   }
+  .mb-\[25px\] {
+    margin-bottom: 25px;
+  }
   .mb-\[30px\] {
     margin-bottom: 30px;
   }
@@ -295,27 +310,6 @@
   .h-\[500px\] {
     height: 500px;
   }
-  .w-\[\%\] {
-    width: %;
-  }
-  .w-\[1\%\] {
-    width: 1%;
-  }
-  .w-\[10\%\] {
-    width: 10%;
-  }
-  .w-\[12\%\] {
-    width: 12%;
-  }
-  .w-\[13\%\] {
-    width: 13%;
-  }
-  .w-\[14\%\] {
-    width: 14%;
-  }
-  .w-\[15\%\] {
-    width: 15%;
-  }
   .w-\[23\%\] {
     width: 23%;
   }
@@ -340,11 +334,20 @@
   .resize {
     resize: both;
   }
+  .flex-col {
+    flex-direction: column;
+  }
   .flex-wrap {
     flex-wrap: wrap;
   }
   .items-center {
     align-items: center;
+  }
+  .items-center-safe {
+    align-items: safe center;
+  }
+  .justify-around {
+    justify-content: space-around;
   }
   .justify-between {
     justify-content: space-between;
@@ -357,6 +360,9 @@
   }
   .gap-\[45px\] {
     gap: 45px;
+  }
+  .rounded-2xl {
+    border-radius: var(--radius-2xl);
   }
   .rounded-\[6px\] {
     border-radius: 6px;
@@ -407,6 +413,9 @@
   .bg-\[\#FFFFFF\] {
     background-color: #FFFFFF;
   }
+  .bg-amber-300 {
+    background-color: var(--color-amber-300);
+  }
   .bg-gradient-to-r {
     --tw-gradient-position: to right in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
@@ -445,6 +454,9 @@
   .pt-\[100px\] {
     padding-top: 100px;
   }
+  .pt-\[120px\] {
+    padding-top: 120px;
+  }
   .pt-\[125px\] {
     padding-top: 125px;
   }
@@ -475,6 +487,9 @@
   .pb-\[100px\] {
     padding-bottom: 100px;
   }
+  .pb-\[120px\] {
+    padding-bottom: 120px;
+  }
   .pl-\[20px\] {
     padding-left: 20px;
   }
@@ -504,6 +519,10 @@
   }
   .text-\[51px\] {
     font-size: 51px;
+  }
+  .font-black {
+    --tw-font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-black);
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
