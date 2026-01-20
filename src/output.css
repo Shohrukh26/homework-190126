@@ -238,6 +238,9 @@
   .mt-\[10px\] {
     margin-top: 10px;
   }
+  .mt-\[12px\] {
+    margin-top: 12px;
+  }
   .mt-\[20px\] {
     margin-top: 20px;
   }
@@ -310,6 +313,9 @@
   .h-\[500px\] {
     height: 500px;
   }
+  .w-\[20\%\] {
+    width: 20%;
+  }
   .w-\[23\%\] {
     width: 23%;
   }
@@ -358,6 +364,9 @@
   .gap-\[16px\] {
     gap: 16px;
   }
+  .gap-\[35px\] {
+    gap: 35px;
+  }
   .gap-\[45px\] {
     gap: 45px;
   }
@@ -381,6 +390,18 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-\[2px\] {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
+  .border-b-\[1\] {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1;
+  }
+  .border-b-\[1px\] {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 2px;
+  }
   .border-b-\[2px\] {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 2px;
@@ -388,6 +409,9 @@
   .border-b-\[3px\] {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 3px;
+  }
+  .border-\[\#4B4B4B\] {
+    border-color: #4B4B4B;
   }
   .border-\[\#35AFBF33\] {
     border-color: #35AFBF33;
@@ -397,6 +421,12 @@
   }
   .border-\[\#A3E0E8\] {
     border-color: #A3E0E8;
+  }
+  .border-\[\#FFFFFF4D\] {
+    border-color: #FFFFFF4D;
+  }
+  .bg-\[\#2C353E\] {
+    background-color: #2C353E;
   }
   .bg-\[\#35AFBF\] {
     background-color: #35AFBF;
@@ -451,6 +481,9 @@
   .pt-\[35px\] {
     padding-top: 35px;
   }
+  .pt-\[80px\] {
+    padding-top: 80px;
+  }
   .pt-\[100px\] {
     padding-top: 100px;
   }
@@ -481,6 +514,12 @@
   .pb-\[35px\] {
     padding-bottom: 35px;
   }
+  .pb-\[39px\] {
+    padding-bottom: 39px;
+  }
+  .pb-\[50px\] {
+    padding-bottom: 50px;
+  }
   .pb-\[80px\] {
     padding-bottom: 80px;
   }
@@ -498,6 +537,9 @@
   }
   .text-center {
     text-align: center;
+  }
+  .font-sans {
+    font-family: var(--font-sans);
   }
   .text-\[12px\] {
     font-size: 12px;
@@ -543,8 +585,14 @@
   .text-\[\#969999\] {
     color: #969999;
   }
+  .text-\[\#FFFFFF4D\] {
+    color: #FFFFFF4D;
+  }
   .text-\[\#FFFFFF\] {
     color: #FFFFFF;
+  }
+  .text-\[\#\] {
+    color: #;
   }
   .underline {
     text-decoration-line: underline;
